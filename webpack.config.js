@@ -11,7 +11,8 @@ module.exports = {
     static: "./dist",
   },
   module: {
-    rules: [
+      rules: [
+        ...base.module.rules,
         {
             test: /\.css$/,
             use: ["style-loader", "css-loader"],
