@@ -4,10 +4,8 @@ import './test.less'
 import './test.styl'
 import png from './images/1.png'
 
-const app = document.getElementById('app')
-app.innerHTML = `<img src='${png}'></img>`
-console.log(png)
-console.log('hello world 2')
+// const app = document.getElementById('app')
+// app.innerHTML = `<img src='${png}'></img>`
 
 const button = document.createElement('button')
 button.innerText = '懒加载'
